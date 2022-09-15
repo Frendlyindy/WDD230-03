@@ -1,0 +1,29 @@
+header img {
+  max-height: 240px;
+  max-width: 200px;
+  padding: 5%;
+}
+header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: rgb(7, 7, 110);
+  color: white;
+  align-items: center;
+}
+#contentBody {
+  margin: 0 auto;
+  width: 50%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.headerText {
+  text-align: center;
+  font-size: xx-large;
+}
+footer {
+  background-color: rgb(7, 7, 110);
+  color: white;
+  text-align: center;
+}
+.dateDiv{
+    color: rgb(245, 245, 17);
+}
