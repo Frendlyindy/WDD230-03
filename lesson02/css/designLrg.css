@@ -1,0 +1,15 @@
+@media screen and (min-width: 1000px){
+    main{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        margin: 0 auto;
+  width: 50%;
+    }
+    .contentStuff{
+        background-color: gray;
+        margin: 12px;
+    }
+    /* #firstDiv{
+        margin-left: 150px;
+    } */
+}

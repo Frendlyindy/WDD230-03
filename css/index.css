@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 header img {
   max-height: 240px;
   max-width: 200px;
@@ -13,7 +14,7 @@ header {
 #contentBody {
   margin: 0 auto;
   width: 50%;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Quicksand;
 }
 .headerText {
   text-align: center;
@@ -24,6 +25,6 @@ footer {
   color: white;
   text-align: center;
 }
-.dateDiv{
-    color: rgb(245, 245, 17);
+.dateDiv {
+  color: rgb(245, 245, 17);
 }
