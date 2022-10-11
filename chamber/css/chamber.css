@@ -1,0 +1,154 @@
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	/* text-align: left; */
+	text-decoration: none;
+	/* color: black; */
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	content: "☰";
+    text-align: right;
+}
+
+.navigation a:hover {
+	color: white;
+	/* background-color: black; */
+}
+
+
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+header {
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    justify-content: space-between;
+    background-color: #3A3634;
+    color: #C2AE9F;
+}
+.logo-area{
+    display: flex;
+}
+
+.header-social {
+    /* I have used some code from the example page. I hope that is ok. */
+    display: flex;
+    gap: 1px;
+    justify-content: end;
+}
+.header-social a img{
+    width: 50px;
+    justify-self: start;
+}
+header h1{
+    /* align-self: center; */
+    font-size: 1.5em;
+
+}
+header img{
+    max-width: 115px;
+    max-height: auto;
+    align-self: center;
+}
+header nav{
+    align-self: center;
+}
+Header nav ul{
+    list-style-type: none;
+}
+header a{
+    color: #C2AE9F;
+}
+footer{
+    background-color: #3A3634;
+    color: #C2AE9F;
+}
+footer a{
+    color:#C2AE9F;
+}
+footer img{
+    max-width: 115px;
+    max-height: auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.main section{
+    background-color: lightgray;
+    width: auto;
+    height: 200px;
+    margin: 10px;
+}
+#weather{
+    height: auto;
+}
+body{
+    background-color: darkgray;
+}
+.spotlight section{
+    border: 1px solid black;
+    margin: 12px;
+    width: auto;
+    height: 200px;
+}
+.spotlight{
+    gap: 1px;
+    flex-direction: column;
+}
+.date{
+    align-self: center;
+}
+
+#form-join{
+    text-align: center;
+    
+}
+
+.direct-grid section{
+    background-color: black;
+    color: gray;
+    margin: 1em;
+    text-align: center;
+}
+.direct-grid a{
+    color: white;
+}
+#direct-head{
+    text-align: center;
+}
+#discover-main{
+    display: block;
+}
+#gotham-pics section img{
+    max-width: 32em;
+    max-height: 35em;
+    text-align: left;
+}
+
+#hero img{
+    max-width: 30em;
+    max-height: 30em;
+    
+}
