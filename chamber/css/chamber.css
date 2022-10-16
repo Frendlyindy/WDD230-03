@@ -152,3 +152,8 @@ body{
     max-height: 30em;
     
 }
+
+header p:nth-child(1) {
+    display: block;
+    text-align: center;
+  }
