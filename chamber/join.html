@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
     <link rel="stylesheet" href="./css/chamber.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
-    <title>Chamber Home Page</title>
+    <title>Join Our Site</title>
 </head>
-
 <body>
     <header>
         <div class="logo-area">
@@ -18,8 +16,7 @@
                 <img src="./imgs/Gotham.png" alt="Commerce Logo">
         <h1>Gotham City Chamber of Commerce</h1>
     </a>
-    <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
-    </div> 
+    </div>
         <nav class="nav-bar">
             <div class="header-social">
                 <a href="https://www.facebook.com/"><img src="./imgs/facebook.png" alt="facebook"></a>
@@ -27,7 +24,7 @@
             </div>
             <ul class="navigation">
                 <li><a class="ham" href="#">Menu</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="discovery.html">Discover</a></li>
                 <li><a href="#">Contact</a></li>
@@ -35,41 +32,22 @@
         </nav>
         <div class="date"></div>
     </header>
-    <main class="main">
-        <section id="hero">
-            <p>
-                Hero with call to action
-            </p>
-        </section>
-        <section id="events">
-            Events
-        </section>
-        <section id="weather">
-            Weather
-            <div id="temp"></div>
-            <div id="speed"></div>
-            <div id="chill"></div>
-        </section>
-        <section>
-            <p>
-               News 
-            </p>
-        </section id="spotlight">
-        <div class="spotlight">
-            <section class="spot1" id="spot1">
-                Spotlight 1
-            </section>
-            <section class="spot2" id="spot2">
-                Spotlight 2
-            </section>
-            <!-- hello -->
-        </div>
+    <main>
+        <form action="thankyou.html" method="get">
+            <label for="fname">First Name: </label>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname">Last Name: </label>
+            <input type="text" name="lname" id="lname"><br>
+            <label for="title">Title: </label>
+            <input type="text" name="title" id="title"><br>
+            <button type="submit">Sign Up</button>
+        </form>
     </main>
     <footer>
         <img src="./imgs/Gotham.png" alt="Commerce Logo">
-        <p>&copy2022 | Bradley Palmer | WDD 230 Project 
+        <p>&copy2022 | Bradley Palmer | WDD 230 Project</p>
     </footer>
-    <script src="./js/chamber.js"></script>
 </body>
+    <script src="./js/chamber.js"></script>
 
 </html>
