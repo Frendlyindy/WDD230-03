@@ -6,15 +6,19 @@ label.myinput{
 .text-input{
     display: block;
     font-size: 1.2rem;
-    padding: .5rem;
+    padding: .3rem;
 }
 textarea{
     display: block;
 }
-label.myradio{
+/* .myradio{
     display: block;
 }
-label.myradio input{
+label.myradio{
     display: block;
-    margin: .5rem;
+    margin: .3rem;
+} */
+
+.myradio{
+    padding-bottom: 1rem;
 }

@@ -48,52 +48,60 @@
             <label  class="myinput" for="buss">*Business Name: </label>
             <input class="text-input" type="text" name="buss" id="buss"><br>
             <h3>Membership Level</h3>
-            <label class="myradio"><input type="radio" name="level" value="non-profit">Non-Profit</label>
-            <label class="myradio"><input type="radio" name="level" value="bronze">Bronze</label>
-            <label class="myradio"><input type="radio" name="level" value="silver">Silver</label>
-            <label class="myradio"><input type="radio" name="level" value="gold">Gold</label><br>
+            <div class="myradio">
+            <input type="radio" name="level" value="non-profit" id="non-profit"><label  for="non-profit">Non-Profit</label><br>
+            <input type="radio" name="level" value="bronze" id="bronze"><label  for="bronze">Bronze</label><br>
+            <input type="radio" name="level" value="silver" id="silver"><label  for="silver">Silver</label><br>
+            <input type="radio" name="level" value="gold" id="gold"><label  for="gold">Gold</label><br>
+        </div>
             <label>Business Description <textarea name="desc" cols="40" rows="5"></textarea></label><br>
             <label><input type="hidden" name="datetime" value="" id="currentdate"></label>
             <button type="submit">Sign Up</button>
         </form>
     </div>
         <div>
-            Membership Levels Benefits
-NP Membership
+
+            <h3>Membership Levels Benefits</h3>
+<p>
+    NP Membership
 
 For non profit organizations and there is no fee
+</p>
 
-Bronze Membership
+<h4>Bronze Membership</h4>
 
-15% discount on events
+<ul>
+<li>15% discount on events</li>
 
-10% discount on advertising
+<li>10% discount on advertising</li>
 
-Fee of $50/month
+<li>Fee of $50/month</li>
+</ul>
 
-Silver Membership
+<h4>Silver Membership</h4>
+<ul>
+<li>25% discount on events</li>
 
-25% discount on events
+<li>15% discount on advertising</li>
 
-15% discount on advertising
+<li>Free participation in the trade fair</li>
 
-Free participation in the trade fair
+<li>Fee of $100/month</li>
+</ul>
+<h4>Gold Membership</h4>
+<ul>
+<li>50% discount on events</li>
 
-Fee of $100/month
+<li>50% discount on advertising</li>
 
-Gold Membership
+<li>Free participation in the trade fair</li>
 
-50% discount on events
+<li>5 free featured ads per year</li>
 
-50% discount on advertising
+<li>1 free training per quarter</li>
 
-Free participation in the trade fair
-
-5 free featured ads per year
-
-1 free training per quarter
-
-Fee of $250/month
+<li>Fee of $250/month</li>
+</ul>
         </div>
     </main>
     <footer>
