@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/chamber.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
+    <link rel="stylesheet" href="./css/form.css">
     <title>Join Our Site</title>
 </head>
 <body>
@@ -32,16 +33,68 @@
         </nav>
         <div class="date"></div>
     </header>
-    <main>
+    <main> <div>
         <form action="thankyou.html" method="get">
-            <label for="fname">First Name: </label>
-            <input type="text" name="fname" id="fname"><br>
-            <label for="lname">Last Name: </label>
-            <input type="text" name="lname" id="lname"><br>
-            <label for="title">Title: </label>
-            <input type="text" name="title" id="title"><br>
+            <label  class="myinput" for="fname">*First Name: </label>
+            <input class="text-input" type="text" name="fname" id="fname" required><br>
+            <label class="myinput"  for="lname">*Last Name: </label>
+            <input class="text-input" type="text" name="lname" id="lname" required><br>
+            <label  class="myinput" for="title">Title: </label>
+            <input class="text-input" type="text" name="title" id="title" pattern="[A-Za-z -]{7,}"><br>
+            <label  class="myinput" for="email">*Email: </label>
+            <input class="text-input" type="email" name="email" id="email" required><br>
+            <label  class="myinput" for="cell">*Cell Phone:</label>
+            <input class="text-input" type="tel" name="cell" id="cell" required><br>
+            <label  class="myinput" for="buss">*Business Name: </label>
+            <input class="text-input" type="text" name="buss" id="buss"><br>
+            <h3>Membership Level</h3>
+            <label class="myradio"><input type="radio" name="level" value="non-profit">Non-Profit</label>
+            <label class="myradio"><input type="radio" name="level" value="bronze">Bronze</label>
+            <label class="myradio"><input type="radio" name="level" value="silver">Silver</label>
+            <label class="myradio"><input type="radio" name="level" value="gold">Gold</label><br>
+            <label>Business Description <textarea name="desc" cols="40" rows="5"></textarea></label><br>
+            <label><input type="hidden" name="datetime" value="" id="currentdate"></label>
             <button type="submit">Sign Up</button>
         </form>
+    </div>
+        <div>
+            Membership Levels Benefits
+NP Membership
+
+For non profit organizations and there is no fee
+
+Bronze Membership
+
+15% discount on events
+
+10% discount on advertising
+
+Fee of $50/month
+
+Silver Membership
+
+25% discount on events
+
+15% discount on advertising
+
+Free participation in the trade fair
+
+Fee of $100/month
+
+Gold Membership
+
+50% discount on events
+
+50% discount on advertising
+
+Free participation in the trade fair
+
+5 free featured ads per year
+
+1 free training per quarter
+
+Fee of $250/month
+        </div>
     </main>
     <footer>
         <img src="./imgs/Gotham.png" alt="Commerce Logo">
@@ -49,5 +102,6 @@
     </footer>
 </body>
     <script src="./js/chamber.js"></script>
+    <script src="./js/join.js"></script>
 
 </html>
