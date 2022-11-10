@@ -1,0 +1,28 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+h1{
+    font-size: 55pt;
+    text-align: center;
+}
+.cards section{
+    background-color: #689;
+    margin: .5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
