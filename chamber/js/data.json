@@ -1,0 +1,88 @@
+{
+    "businesses": [
+        {
+            "name" : "Wayne Enterprises",
+            "address" : "3927 Mortimer Ave, Gotham City, NJ, 08701",
+            "number" : "609-359-3852",
+            "website" : "www.wayneenterprises.org",
+            "level" : "Gold"
+        },
+        {
+            "name" : "LexCorp",
+            "address" : "416 Clinton St, Metropolis, NY, 10015",
+            "number" : "212-555-0520",
+            "website" : "www.lexcorp.org",
+            "level" : "Gold"
+        },
+        {
+            "name" : "S.T.A.R. Labs",
+            "address" : "2010 Main St, Central City, MO, 63171",
+            "number" : "314-555-0456",
+            "website" : "www.starlabratories.org",
+            "level" : "Silver"
+        },
+        {
+            "name" : "Queen Consolidated",
+            "address" : "8364 Verde Rd, Star City, CA, 94102",
+            "number" : "415-209-4173",
+            "website" : "www.queenconsalidated.org",
+            "level" : "Gold"
+        },
+        {
+            "name" : "Ace Chemicals",
+            "address" : "91155 Arkham Blvd, Gotham City, NJ, 08701",
+            "number" : "609-119-5150",
+            "website" : "www.acechem.haha",
+            "level" : "Bronze"
+        },
+        {
+            "name" : "Big Belly Burger",
+            "address" : "1202 Diggle St, Central City, MO, 63171",
+            "number" : "314-555-0144",
+            "website" : "www.BBBurger.com",
+            "level" : "Bronze"
+        },
+        {
+            "name" : "Stagg Enterprises",
+            "address" : "5070 Browning Rd, Gotham City, NJ, 08701",
+            "number" : "609-555-1965",
+            "website" : "www.staggent.com",
+            "level" : "Silver"
+        },
+        {
+            "name" : "GothCorp",
+            "address" : "7923 23rd St, Gotham City, NJ, 08701",
+            "number" : "609-555-9219",
+            "website" : "www.gothcorp.net",
+            "level" : "Gold"
+        },
+        {
+            "name" : "Mason Oil",
+            "address" : "20938 Kingsley Way, Metropolis, NY, 63172",
+            "number" : "212-555-2948",
+            "website" : "www.masonoilimports.net",
+            "level" : "Bronze"
+        },
+        {
+            "name" : "Zippy Car Wash",
+            "address" : "23451 Center St, Central City, MO, 63171",
+            "number" : "314-555-6740",
+            "website" : "www.zippywash.com",
+            "level" : "Bronze"
+        },
+        {
+            "name" : "Martinez Mechanical",
+            "address" : "90426 4th St, Metropolis, NY, 63172",
+            "number" : "212-555-8302",
+            "website" : "www.martinezmechanics.com",
+            "level" : "Bronze"
+        },
+        {
+            "name" : "Paunch Burger",
+            "address" : "93930 Wamapoke Rd, Pawnee, IN, 47201",
+            "number" : "930-555-1973",
+            "website" : "www.paunchburger.com",
+            "level" : "Silver"
+        }
+    ]
+}
