@@ -1,4 +1,4 @@
-const url = "/chamber/js/data.json";
+const url = "./js/data.json";
 const resultElement = document.querySelector('div#directory');
 let array = [];
 const spotOne = document.querySelector('.spot1');
