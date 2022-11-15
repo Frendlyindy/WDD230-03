@@ -19,7 +19,7 @@ fetch(url)
                 phone.textContent = item.number;
                 const web = document.createElement('a');
                 web.textContent = item.website;
-                web.href = item.website;
+                web.href = '#';
                 s.appendChild(h2);
                 s.appendChild(address);
                 s.appendChild(phone);
