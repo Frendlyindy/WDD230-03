@@ -157,3 +157,8 @@ header p:nth-child(1) {
     display: block;
     text-align: center;
   }
+
+  section img{
+    max-height: 120px;
+    max-width: 120px;
+  }

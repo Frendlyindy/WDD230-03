@@ -5,7 +5,8 @@
             "address" : "3927 Mortimer Ave, Gotham City, NJ, 08701",
             "number" : "609-359-3852",
             "website" : "www.wayneenterprises.org",
-            "level" : "Gold"
+            "level" : "Gold",
+            "logo" : "./imgDir/wayne_logo.png"
         },
         {
             "name" : "LexCorp",
