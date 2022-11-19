@@ -1,4 +1,4 @@
-const url = "/chamber/js/data.json";
+const url = "./js/data.json";
 const resultElement = document.querySelector('div#directory');
 let array = [];
 const spotOne = document.querySelector('.spot1');
@@ -19,7 +19,7 @@ fetch(url)
                 phone.textContent = item.number;
                 const web = document.createElement('a');
                 web.textContent = item.website;
-                web.href = item.website;
+                web.href = '#';
                 s.appendChild(h2);
                 s.appendChild(address);
                 s.appendChild(phone);
