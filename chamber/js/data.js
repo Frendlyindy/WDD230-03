@@ -20,10 +20,13 @@ fetch(url)
                 const web = document.createElement('a');
                 web.textContent = item.website;
                 web.href = '#';
+                const logo = document.createElement('img')
+                logo.src = item.logo
                 s.appendChild(h2);
+                s.appendChild(logo);
                 s.appendChild(address);
                 s.appendChild(phone);
-                s.appendChild(web)
+                s.appendChild(web);
                 resultElement.appendChild(s);
                 if(item.level == "Silver"||item.level == "Gold"){
                     let name = item.name;
