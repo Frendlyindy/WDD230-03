@@ -40,8 +40,8 @@ const today = new Date();
       };
       
       tempobj.textContent = temp + '°F';
-    windspeedobj.textContent = 'Windspeed = ' + windspeed;
-    windchillobj.innerHTML = 'Windchill = ' + windchillmeg;
+    windspeedobj.textContent = 'Windspeed: ' + windspeed;
+    windchillobj.innerHTML = 'Windchill: ' + windchillmeg;
       // iconPath.textContent = icon;
       weatherIcon.setAttribute("src", icon);
       weatherIcon.setAttribute("alt", obj.weather[0].description);
