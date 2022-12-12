@@ -1,0 +1,54 @@
+.navlist{
+    list-style: none;
+    display: flex;
+}
+.navlist li{
+    margin: 1rem;
+}
+center{
+    background-color: orange;
+    display: grid;
+}
+#weather{
+    background-color: orange;
+    width: 50%;
+}
+#greetings{
+    background-color: orange;
+    width: 50%;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.left-main{
+    background-color: aqua;
+    grid-column: auto;
+    height: 75rem;
+}
+.right-main{
+    background-color: aqua;
+    grid-column: auto;
+    height: 75rem;
+}
+header{
+    display: flex;
+}
+/* .navlist{
+    margin-right: 50em;
+} */
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 1rem;
+}
