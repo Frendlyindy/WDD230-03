@@ -1,0 +1,27 @@
+{"temples":[
+    {
+        "id": "temple1",
+        "name":"Rexburg Idaho Temple",
+        "dedication":"10 February 2008",
+        "imageURL":"https://assets.ldscdn.org/29/8a/298a8b01fbc736923e83e7c748e60abcad8511c9/rexburg_idaho_temple.jpeg"
+    },
+    {
+        "id": "temple2",
+        "name":"Idaho Falls Idaho Temple",
+        "dedication":"23 September 1945",
+        "imageURL":"https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png"
+    },
+    {
+        "id": "temple3",
+        "name":"Mount Timpanogos Utah Temple",
+        "dedication":"13 October 1996",
+        "imageURL":"https://assets.ldscdn.org/38/f4/38f4f0d08d11f9aa517fb57f68bbf7f95f1de7ed/mount_timpanogos_utah_temple.jpeg"
+    },
+    {
+        "id": "temple4",
+        "name":"Provo Utah Temple",
+        "dedication":"9 February 1972",
+        "imageURL":"https://assets.ldscdn.org/f7/43/f743a6a7ecb335e36c8847d1ed3153f44422460e/provo_temple_lds.jpeg"
+    }
+]
+}
