@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/final.css">
+    <link rel="stylesheet" href="./css/forms.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu&display=swap" rel="stylesheet">
     <title>Temple Inn & Suites</title>
 </head>
 <body>
     <header>
         <h1>Temple Inn & Suites</h1>
-        <a href="#" class="button">Book Your Stay!</a>
         <nav>
             <ul class="navlist">
                 <li><a href="./index.html">Home</a></li>
-                <li class="active"><a href="#">Reservations</a></li>
+                <li ><a class="active" href="#">Reservations</a></li>
                 <li><a href="./temples.html">Temples</a></li>
                 <li><a href="./services.html">Services</a></li>
             </ul>
@@ -22,21 +25,36 @@
         
     </header>
     <main>
-       <form action="">
-        <label for="fname">First Name:</label>
+        <div class="reserve">
+       <form action="./thankyou.html" method="get">
+        <label for="fname">First Name:</label><br>
         <input type="text" name="fname" id="fname"><br>
-        <label for="lname">Last Name:</label>
+        <label for="lname">Last Name:</label><br>
         <input type="text" name="lname" id="lname"><br>
-        <label for="phone">Phone Number:</label>
+        <label for="phone">Phone Number:</label><br>
         <input type="tel" name="phone" id="phone"><br>
-        <label for="start">Check In Date: </label>
-        <input type="date" name="start" id="start">
-        <label for="end">Check Out Date: </label>
+        <label for="start">Check In Date: </label><br>
+        <input type="date" name="start" id="start"><br>
+        <label for="end">Check Out Date: </label><br>
         <input type="date" name="end" id="end"><br>
-        <label for="email">Email Address: </label>
+        <label for="email">Email Address: </label><br>
         <input type="email" name="email" id="email"><br>
-        
+        <label for="temple">Which Temple?</label><br>
+        <select name="temple" id="temple">
+            <option value="rexburg" selected>Rexburg, ID</option>
+            <option value="idahofalls">Idaho Falls, ID</option>
+            <option value="provo">Provo, UT</option>
+            <option value="mttimp">Mt. Timpanoges, UT</option>
+        </select><br>
+        <h4>Room Selection</h4>
+        <div class="radiobtn"> 
+        <p><input type="radio" name="room" id="king" value="king"><label for="king">King</label></p>
+        <p><input type="radio" name="room" id="queen" value="queen"><label for="queen">Queen</label></p>
+        <p><input type="radio" name="room" id="twin" value="twin"><label for="twin">Twin</label></p>
+        </div>
+        <button class="button-submit" type="submit">Book Your Reservation</button>
        </form>
+    </div>
     </main>
     <footer>
         <div>&copy; <span></span> | Bradley Palmer | Rexburg, ID, USA</div>

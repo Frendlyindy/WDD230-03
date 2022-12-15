@@ -5,28 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/final.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu&display=swap" rel="stylesheet">
     <title>Temple Inn & Suites</title>
 </head>
-<body>
+<body onload="roomInfo()">
     <header>
         <h1>Temple Inn & Suites</h1>
-        <a href="#" class="button">Book Your Stay!</a>
+        <!-- <a href="#" class="button">Book Your Stay!</a> -->
         <nav>
             <ul class="navlist">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./reservations.html">Reservations</a></li>
                 <li><a href="./temples.html">Temples</a></li>
-                <li class="active"><a href="#">Services</a></li>
+                <li ><a class="active" href="#">Services</a></li>
             </ul>
         </nav>
         
     </header>
     <main>
-       
+        <div class="title">       <h2>Services</h2>
+        </div>
+       <div class="btns">
+        <button id="rooms">Room Types</button>
+        <button id="missionaries">Service Missionaries</button>
+        <button id="receptions">Sealing Receptions</button>
+       </div>
+       <div id="missBox">
+        <p>
+            Service missionaries
+        </p>
+       </div>
+       <div id="sealBox">
+        <p>
+           Sealing Receptions
+        </p>
+       </div>
+       <div id="roomBox">
+        <section>
+            <h3>King</h3>
+            <p>$250</p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Queen</h3>
+                <p>$150</p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Twin</h3>
+            <p>$75</p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+       </div>
     </main>
     <footer>
         <div>&copy; <span></span> | Bradley Palmer | Rexburg, ID, USA</div>
     </footer>
-    
+    <script src="./js/services.js"></script>
 </body>
 </html>

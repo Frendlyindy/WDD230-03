@@ -1,0 +1,12 @@
+main{
+    display: block;
+    text-align: center;
+}
+#roomBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#roomBox section{
+    border: solid 2px;
+    margin: 1rem;
+}

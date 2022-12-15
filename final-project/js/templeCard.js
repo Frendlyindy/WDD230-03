@@ -12,7 +12,7 @@ fetch(url)
                 const h2 = document.createElement('h2');
                 h2.textContent = item.name;
                 const dedication = document.createElement('p');
-                dedication.textContent = item.dedication;
+                dedication.textContent = 'Dedicated: ' + item.dedication;
                 const img = document.createElement('img')
                 img.src = item.imageURL
                 s.appendChild(h2);

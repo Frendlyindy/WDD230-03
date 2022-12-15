@@ -1,0 +1,34 @@
+#temples section{
+    margin: 1em;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+#temples h2{
+    position: relative;
+    top: 100px;
+}
+#temples p{
+    position: relative;
+    top: 250px;
+    background-color: white;
+}
+#temples{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+}
+#temples section img{
+    max-height: 240px;
+    max-width: 360px;
+}
+main{
+    display: block;
+}
+@media only screen and (max-width: 425px){
+	#temples{
+        display: grid;
+        grid-template-columns: 400px;
+        justify-content: center;
+    }
+}

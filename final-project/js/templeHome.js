@@ -15,7 +15,7 @@ fetch(url)
                 const img = document.createElement('img')
                 img.src = data.temples[0].imageURL
                 s.appendChild(h2);
-                s.appendChild(dedication);
+                // s.appendChild(dedication);
                 s.appendChild(img);
                 resultElement.appendChild(s);
                 

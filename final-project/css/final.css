@@ -1,3 +1,6 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
 .navlist{
     list-style: none;
     display: flex;
@@ -5,34 +8,47 @@
 .navlist li{
     margin: 1rem;
 }
+.item{
+    display: flex;
+}
 center{
-    background-color: orange;
+    background-color: darkorange;
     display: grid;
 }
 #weather{
-    background-color: orange;
-    width: 50%;
+    background-color: darkorange;
+    min-width: 400px;
+    padding: 1rem;
+    text-align: center;
 }
 #greetings{
-    background-color: orange;
-    width: 50%;
+    background-color: darkorange;
+    min-width: 400px;
 }
 main{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
 .left-main{
-    background-color: aqua;
+    background-color: lightblue;
     grid-column: auto;
     height: 75rem;
 }
 .right-main{
-    background-color: aqua;
+    background-color: lightblue;
     grid-column: auto;
     height: 75rem;
 }
+footer{
+    color: white;
+    background-color: darkorange;
+}
 header{
     display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    background-color: lightblue;
 }
 /* .navlist{
     margin-right: 50em;
@@ -41,7 +57,7 @@ header{
     display: block;
     width: 115px;
     height: 25px;
-    background: orange;
+    background: darkorange;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
@@ -51,4 +67,43 @@ header{
     cursor: pointer;
     text-decoration: none;
     margin: 1rem;
+}
+.button-submit {
+    display: block;
+    width: 115px;
+    /* height: 25px; */
+    background: darkorange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 1rem;
+}
+.active{
+    color: rgba(116, 65, 3, 0.747);
+}
+header a{
+    color: blue;
+    text-decoration: none;
+}
+#templeHome{
+    text-align: center;
+}
+#templeHome a{
+    position: relative;
+    top: 12rem;
+    left: 18rem;
+}
+@media only screen and (max-width: 425px){
+	main{
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        display: flex;
+    }
 }
