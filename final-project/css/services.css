@@ -10,3 +10,7 @@ main{
     border: solid 2px;
     margin: 1rem;
 }
+.btns{
+    display: flex;
+    justify-content: center;
+}
